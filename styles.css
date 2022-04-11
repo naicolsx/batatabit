@@ -202,7 +202,7 @@ main {
 }
 
 .currency-table--container .down {
-  background-image: url(./Assets/iconos/trending-down.png);
+  background-image: url("./Assets/iconos/trending-down.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -213,7 +213,7 @@ main {
 }
 
 .currency-table--container .up {
-  background-image: url(./Assets/iconos/trending-up.png);
+  background-image: url("./Assets/iconos/trending-up.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,7 +234,105 @@ main {
 }
 
 .currency-table--date p {
-  color: var(--black);
+  color: var(--warm-black);
   font-size: 1.2rem;
   line-height: 1.5rem;
+}
+
+.main-product-detail {
+  background: var(--warm-black);
+  height: auto;
+  min-width: 320px;
+  padding: 20px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.product-detail-batata-logo {
+  background-image: url("./Assets/iconos/batata.svg");
+  background-repeat: no-repeat;
+  height: 25px;
+  left: calc(50% - 20px);
+  position: absolute;
+  top: -10px;
+  width: 40px;
+}
+
+.product-detail--title {
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  min-width: 288px;
+  text-align: center;
+  width: 90%;
+}
+
+.product-detail--title h2 {
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 2.6rem;
+}
+
+.product-detail--title p {
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.product-detail--card {
+  background: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  height: 150px;
+  margin: 15px auto;
+  max-width: 400px;
+  min-width: 288px;
+  padding: 15px;
+  width: 90%;
+}
+
+.product-detail--card .card-icon {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 20px;
+  margin-bottom: 10px;
+  width: 20px;
+}
+
+.product-detail--card .clock {
+  background-image: url("./Assets/iconos/clock.png");
+}
+
+.product-detail--card .eye {
+  background-image: url("./Assets/iconos/eye.png");
+}
+
+.product-detail--card .dollar {
+  background-image: url("./Assets/iconos/dollar.png");
+}
+
+.product-detail--card .check {
+  background-image: url("./Assets/iconos/check.png");
+}
+
+
+.product--card-title {
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.product-card--body {
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
 }
