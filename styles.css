@@ -399,9 +399,9 @@ main {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
   height: 250px;
-  margin: 50px 30px 0;
+  margin: 50px 5px 0;
   max-width: 300px;
-  min-width: 230px;
+  min-width: 190px;
   padding: 0 15px;
   position: relative;
   scroll-snap-align: center;
@@ -469,4 +469,34 @@ main {
   height: 20px;
   vertical-align: text-bottom;
   width: 20px;
+}
+
+footer {
+  background: var(--bitcoin-orange);
+  display: flex;
+  height: 150px;
+  width: 100%;
+}
+
+footer section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+footer .left ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+
+.left li {
+  margin: 10px 0;
+}
+
+.left a {
+  color: var(--white);
+  text-decoration: none;
 }
